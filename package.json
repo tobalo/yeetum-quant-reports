@@ -1,0 +1,42 @@
+{
+	"name": "yeetum-quant-reports",
+	"version": "1.0.0",
+	"description": "",
+	"main": "lib/index.js",
+	"scripts": {
+		"start": "node index.js",
+		"server": "nodemon index.js",
+		"build": "package-scripts build",
+		"check": "package-scripts check",
+		"publish": "package-scripts publish",
+		"test": "package-scripts test --watch"
+	},
+	"keywords": [
+		"create-package"
+	],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"package-scripts": "1.1.0"
+	},
+	"dependencies": {
+		"babel-runtime": "6.26.0",
+		"body-parser": "^1.19.0",
+		"express": "^4.17.1",
+		"nodemon": "^2.0.6",
+		"path": "^0.12.7"
+	},
+	"module": "es/index.js",
+	"files": [
+		"lib",
+		"dist",
+		"es",
+		"docs"
+	],
+	"browserslist": [
+		"last 2 versions"
+	],
+	"engines": {
+		"node": ">= 4"
+	}
+}
