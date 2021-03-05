@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get('*', (req, res) => {
     console.log("Quant report triggered...");
-    res.sendFile(path.join(__dirname, './public', 'quantstats.html'));
+    res.sendFile(path.join(__dirname, './public', 'FUMvsSPY.html'));
 });
 
 const PORT = process.env.PORT || 8080;
